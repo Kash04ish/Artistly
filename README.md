@@ -1,12 +1,39 @@
-# React + Vite
+# 🎤 Artistly – Discover & Book Exceptional Artists
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Artistly is a full-stack voice-powered platform built with React and Firebase that allows users to explore, book, and chat with a wide range of artists including singers, DJs, dancers, comedians, and motivational speakers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Voice & Text Search** to explore artists
+- 🧑‍🎤 **Artist Listings** with location, category, rating & fee
+- 📦 **Artist Onboarding Form** with multi-select inputs and validations
+- 🎬 **Artist Reels** – watch video previews from performers
+- 💬 **Chat Interface** to connect with artists or managers
+- 📱 **Mobile-First UI** with Bottom Navigation & Responsive Design
+- 📄 **Admin Dashboard** to view artist submissions (optional)
+- 🛠️ Powered by **Firebase** for Authentication & Firestore
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder Structure
+
+```bash
+├── src
+│   ├── Pages
+│   │   ├── Home.jsx
+│   │   ├── Explore.jsx
+│   │   ├── Reels.jsx
+│   │   ├── Jobs.jsx (Artist Onboarding)
+│   │   ├── Chat.jsx
+│   │   ├── Profile.jsx
+│   │   └── Login.jsx
+│   ├── Components
+│   │   ├── Navbar.jsx
+│   │   ├── BottomNav.jsx
+│   │   └── VoiceSearchInput.jsx
+│   ├── assets/
+│   ├── firebase.js
+│   ├── App.jsx
+│   └── index.js
