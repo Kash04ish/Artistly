@@ -1,3 +1,4 @@
+Deployed Link: https://artistly-ivory.vercel.app/
 # 🎤 Artistly – Discover & Book Exceptional Artists
 
 Artistly is a full-stack voice-powered platform built with React and Firebase that allows users to explore, book, and chat with a wide range of artists including singers, DJs, dancers, comedians, and motivational speakers.
