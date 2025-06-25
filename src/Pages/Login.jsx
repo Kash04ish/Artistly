@@ -41,7 +41,7 @@ const Login = () => {
   return (
     <div className="p-4 flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-sm">
-        <h2 className="text-xl font-bold mb-4 text-center text-orange-600">
+        <h2 className="text-xl font-bold mb-4 text-center text-purple-600">
           {isSignup ? "Create an Account" : "Login to Kaamigo"}
         </h2>
 
@@ -61,7 +61,7 @@ const Login = () => {
         />
         <button
           onClick={handleSubmit}
-          className="bg-orange-500 text-white px-4 py-2 w-full rounded hover:bg-orange-600"
+          className="bg-purple-500 text-white px-4 py-2 w-full rounded hover:bg-blue-600"
         >
           {isSignup ? "Sign Up" : "Login"}
         </button>

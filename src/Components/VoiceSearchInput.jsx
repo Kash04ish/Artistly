@@ -11,7 +11,7 @@ const VoiceSearchInput = () => {
   };
 
   if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
-    return <p className="text-red-500">Your browser doesn't support speech recognition.</p>;
+    return <p className="text-blue-500">Your browser doesn't support speech recognition.</p>;
   }
 
   return (
@@ -24,7 +24,7 @@ const VoiceSearchInput = () => {
         className="flex-1 text-black px-2 outline-none"
       />
       <FiSearch className="text-gray-500" size={18} />
-      <button onClick={handleMic} className="ml-3 text-orange-500 cursor-pointer">
+      <button onClick={handleMic} className="ml-3 text-blue-500 cursor-pointer">
         <FiMic size={22} />
       </button>
       {listening && (

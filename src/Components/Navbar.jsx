@@ -27,10 +27,10 @@ const Navbar = () => {
         className="flex items-center gap-2 cursor-pointer"
         onClick={() => navigate("/")}
       >
-        <div className="bg-orange-500 text-white font-bold text-lg px-3 py-1 rounded-lg">
-          K
+        <div className="bg-purple-500 text-white font-bold text-lg px-3 py-1 rounded-lg">
+          Art
         </div>
-        <h1 className="text-xl font-semibold text-gray-800">Kaamigo</h1>
+        <h1 className="text-xl font-semibold text-gray-800">Aristly</h1>
       </div>
 
       {/* Right User Info */}
@@ -50,7 +50,7 @@ const Navbar = () => {
           )}
           <button
             onClick={handleLogout}
-            className="text-sm bg-orange-500 text-white px-2 py-1 rounded hover:bg-orange-600"
+            className="text-sm bg-purple-500 text-white px-2 py-1 rounded hover:bg-orange-600"
           >
             Logout
           </button>
@@ -58,7 +58,7 @@ const Navbar = () => {
       ) : (
         <button
           onClick={() => navigate("/login")}
-          className="text-sm bg-orange-500 text-white px-4 py-1.5 rounded hover:bg-orange-600"
+          className="text-sm bg-purple-500 text-white px-4 py-1.5 rounded hover:bg-orange-600"
         >
           Login
         </button>

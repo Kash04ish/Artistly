@@ -24,14 +24,14 @@ const Reels = () => {
 
   return (
     <div className="p-4">
-      <h2 className="text-2xl font-bold mb-4 text-orange-700">Worker Reels</h2>
+      <h2 className="text-2xl font-bold mb-4 text-purple-700">🎬 Top Artist Performances🔥</h2>
 
-      <div className="grid grid-cols-auto gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {videos.map((url, i) => (
           <video
             key={i}
             controls
-            className="mb-4 rounded-xl shadow w-full min-h-[360px] object-cover mx-auto"
+            className="rounded-xl shadow-lg w-full h-64 object-cover"
           >
             <source src={url} type="video/mp4" />
             Your browser does not support the video tag.

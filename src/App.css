@@ -1,0 +1,19 @@
+.responsive-bg {
+  background-color: #f5f3ff; /* mobile */
+}
+
+@media (min-width: 640px) {
+  .responsive-bg {
+    background-color: #ede9fe; /* sm */
+  }
+}
+@media (min-width: 768px) {
+  .responsive-bg {
+    background-color: #e0e7ff; /* md */
+  }
+}
+@media (min-width: 1024px) {
+  .responsive-bg {
+    background-color: #dbeafe; /* lg */
+  }
+}

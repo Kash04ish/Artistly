@@ -17,7 +17,7 @@ const App = () => {
   const hideNav = hideNavPaths.includes(location.pathname);
 
   return (
-    <div className="pb-16">
+    <div className="responsive-bg min-h-screen pb-16">
       {/* Top Navbar */}
       {!hideNav && <Navbar />}
 
